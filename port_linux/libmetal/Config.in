@@ -1,0 +1,4 @@
+config BR2_PACKAGE_LIBMETAL
+	bool "libmetal"
+	help
+	  libmetal port for Linux and riscv64
