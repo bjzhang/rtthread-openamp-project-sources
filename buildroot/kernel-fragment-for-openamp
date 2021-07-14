@@ -1,0 +1,6 @@
+# For remote cpu from Linux side
+CONFIG_HOTPLUG_CPU=y
+# UIO
+CONFIG_UIO=y
+CONFIG_UIO_PDRV_GENIRQ=y
+CONFIG_UIO_DMEM_GENIRQ=y

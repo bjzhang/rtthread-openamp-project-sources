@@ -14,9 +14,14 @@ BR2_TOOLCHAIN_BUILDROOT_CXX=y
 BR2_PACKAGE_LIBSYSFS=y
 # For patching
 #BR2_GLOBAL_PATCH_DIR="/home/bamvor/works/source/rtthread-openamp-project-sources"
-BR2_GLOBAL_PATCH_DIR="../"
+# "../" for qemu patch
+# "../port_linux" for linux patch
+# "../buildroot" for opensbi patch(path: rtthread-openamp-project-sources/buildroot/opensbi)
+BR2_GLOBAL_PATCH_DIR="../ ../port_linux ../buildroot"
 # For enable ssh login
 BR2_ROOTFS_POST_BUILD_SCRIPT="../buildroot/enable-ssh-login.sh"
+# Copy files to demo_bin. Note that board/qemu/post-image.sh is the orignal sccript for qemu riscv64 virt
+BR2_ROOTFS_POST_IMAGE_SCRIPT="board/qemu/post-image.sh ../buildroot/install_to_demo_bin.sh"
 # Enable libmetal and open-amp
 BR2_PACKAGE_LIBMETAL=y
 BR2_PACKAGE_OPENAMP=y
