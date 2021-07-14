@@ -1,0 +1,27 @@
+# For mount command
+BR2_PACKAGE_UTIL_LINUX=y
+# For ssh
+BR2_PACKAGE_OPENSSH=y
+BR2_PACKAGE_OPENSSH_CLIENT=y
+BR2_PACKAGE_OPENSSH_SERVER=y
+BR2_PACKAGE_OPENSSH_KEY_UTILS=y
+# cmake need c++
+BR2_TOOLCHAIN_USES_GLIBC=y
+BR2_TOOLCHAIN_BUILDROOT_GLIBC=y
+BR2_TOOLCHAIN_BUILDROOT_LIBC="glibc"
+BR2_TOOLCHAIN_BUILDROOT_CXX=y
+# For libmetal
+BR2_PACKAGE_LIBSYSFS=y
+# For patching
+#BR2_GLOBAL_PATCH_DIR="/home/bamvor/works/source/rtthread-openamp-project-sources"
+BR2_GLOBAL_PATCH_DIR="../"
+# For enable ssh login
+BR2_ROOTFS_POST_BUILD_SCRIPT="../buildroot/enable-ssh-login.sh"
+# Enable libmetal and open-amp
+BR2_PACKAGE_LIBMETAL=y
+BR2_PACKAGE_OPENAMP=y
+# For debugging
+BR2_PACKAGE_STRACE=y
+# openamp support in Linux kernel
+BR2_LINUX_KERNEL_CONFIG_FRAGMENT_FILES="../buildroot/kernel-fragment-for-openamp"
+
