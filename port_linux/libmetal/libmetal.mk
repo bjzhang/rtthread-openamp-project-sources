@@ -5,7 +5,7 @@
 ################################################################################
 
 LIBMETAL_VERSION = devel
-LIBMETAL_SITE = ${BR2_EXTERNAL_OPENAMP_PATH}/port_linux/libmetal-src
+LIBMETAL_SITE = ${BR2_EXTERNAL_OPENAMP_PROJECT_PATH}/port_linux/libmetal-src
 LIBMETAL_SITE_METHOD = local
 LIBMETAL_LICENSE = GPL-2.0+
 LIBMETAL_LICENSE_FILES = Copyright COPYING

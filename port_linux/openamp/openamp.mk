@@ -5,7 +5,7 @@
 ################################################################################
 
 OPENAMP_VERSION = devel
-OPENAMP_SITE = ${BR2_EXTERNAL_OPENAMP_PATH}/port_linux/open-amp-src
+OPENAMP_SITE = ${BR2_EXTERNAL_OPENAMP_PROJECT_PATH}/port_linux/open-amp-src
 OPENAMP_SITE_METHOD = local
 OPENAMP_LICENSE = GPL-2.0+
 OPENAMP_LICENSE_FILES = Copyright COPYING
