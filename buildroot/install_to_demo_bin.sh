@@ -11,6 +11,8 @@ cp -p $HOST_DIR/bin/qemu-system-riscv64 $DEMO_BIN/for_aarch64_host/
 cp -p $IMAGE_DIR/fw_jump.* $DEMO_BIN/
 cp -p $IMAGE_DIR/rootfs.ext2 $DEMO_BIN/
 cp -p $IMAGE_DIR/Image $DEMO_BIN/
+cp -p $IMAGE_DIR/fw_jump.elf $DEMO_BIN/
+cp -p $IMAGE_DIR/fw_jump.bin $DEMO_BIN/
 
 #echo "Copying libmetal and open-amp"
 #mkdir -p $DEMO_BIN/OpenAMP/bin

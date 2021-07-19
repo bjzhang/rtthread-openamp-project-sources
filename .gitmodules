@@ -1,0 +1,4 @@
+[submodule "buildroot/opensbi-src"]
+	path = buildroot/opensbi-src
+	url = git@github.com:bjzhang/opensbi.git
+	branch = rtt-openamp
