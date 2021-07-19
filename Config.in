@@ -1,3 +1,4 @@
 source "$BR2_EXTERNAL_OPENAMP_PROJECT_PATH/port_linux/libmetal/Config.in"
 source "$BR2_EXTERNAL_OPENAMP_PROJECT_PATH/port_linux/openamp/Config.in"
+source "$BR2_EXTERNAL_OPENAMP_PROJECT_PATH/port_linux/openamp_drv/Config.in"
 :

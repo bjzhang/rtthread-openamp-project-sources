@@ -1,0 +1,5 @@
+config BR2_PACKAGE_OPENAMP_DRV
+	bool "openamp_drv"
+	help
+	  OpenAMP driver for Linux
+

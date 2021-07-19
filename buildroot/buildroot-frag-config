@@ -26,6 +26,7 @@ BR2_ROOTFS_POST_IMAGE_SCRIPT="board/qemu/post-image.sh ../buildroot/install_to_d
 # Enable libmetal and open-amp
 BR2_PACKAGE_LIBMETAL=y
 BR2_PACKAGE_OPENAMP=y
+BR2_PACKAGE_OPENAMP_DRV=y
 # For debugging
 BR2_PACKAGE_STRACE=y
 # openamp support in Linux kernel
