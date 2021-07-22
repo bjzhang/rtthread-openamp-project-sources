@@ -21,3 +21,7 @@
 	path = port_rtt/rt-thread-src
 	url = git@gitee.com:bamvor/rt-thread.git
 	branch = open-amp-port
+[submodule "qemu-src"]
+	path = qemu-src
+	url = git@gitee.com::bamvor/qemu.git
+	branch = open-amp-port
