@@ -7,7 +7,7 @@
 	url = git://git.buildroot.net/buildroot
 [submodule "port_linux/linux-src"]
 	path = port_linux/linux-src
-	url = git@gitee.com:mirrors/linux.git
+	url = git@gitee.com:bamvor/Linux.git
 	branch = open-amp-host
 [submodule "port_linux/libmetal-src"]
 	path = port_linux/libmetal-src
