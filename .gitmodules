@@ -12,7 +12,7 @@
 [submodule "port_linux/libmetal-src"]
 	path = port_linux/libmetal-src
 	url = git@github.com:bjzhang/libmetal.git
-	branch = Linux-rtt-openamp
+	branch = rv64-openamp-port
 [submodule "port_linux/open-amp-src"]
 	path = port_linux/open-amp-src
 	url = git@github.com:bjzhang/open-amp.git
