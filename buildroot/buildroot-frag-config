@@ -20,7 +20,7 @@ BR2_PACKAGE_LIBSYSFS=y
 BR2_GLOBAL_PATCH_DIR="../ ../port_linux ../buildroot"
 # For enable ssh login
 BR2_TARGET_GENERIC_ROOT_PASSWD="Linux"
-BR2_ROOTFS_POST_BUILD_SCRIPT="../buildroot/enable-ssh-login.sh"
+BR2_ROOTFS_POST_BUILD_SCRIPT="../buildroot/enable-ssh-login.sh ../buildroot/build-and-install-rtt.sh"
 # Copy files to demo_bin. Note that board/qemu/post-image.sh is the orignal sccript for qemu riscv64 virt
 BR2_ROOTFS_POST_IMAGE_SCRIPT="board/qemu/post-image.sh ../buildroot/install_to_demo_bin.sh"
 # Enable libmetal and open-amp
