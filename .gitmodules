@@ -16,7 +16,7 @@
 [submodule "port_linux/open-amp-src"]
 	path = port_linux/open-amp-src
 	url = git@github.com:bjzhang/open-amp.git
-	branch = Linux-rtt-openamp
+	branch = rv64-openamp-port
 [submodule "port_rtt/rt-thread-src"]
 	path = port_rtt/rt-thread-src
 	url = git@gitee.com:bamvor/rt-thread.git
