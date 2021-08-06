@@ -5,6 +5,7 @@
 [submodule "buildroot-src"]
 	path = buildroot-src
 	url = git://git.buildroot.net/buildroot
+	branch = 2021.05.x
 [submodule "port_linux/linux-src"]
 	path = port_linux/linux-src
 	url = git@gitee.com:bamvor/linux.git
