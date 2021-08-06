@@ -4,7 +4,7 @@
 	branch = rtt-openamp
 [submodule "buildroot-src"]
 	path = buildroot-src
-	url = git://git.buildroot.net/buildroot
+	url = https://gitee.com/mirrors/buildroot.git
 	branch = 2021.05.x
 [submodule "port_linux/linux-src"]
 	path = port_linux/linux-src
